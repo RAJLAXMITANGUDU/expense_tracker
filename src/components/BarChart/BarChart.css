@@ -1,0 +1,16 @@
+.barWrapper{
+    padding: 5px 20px;
+    border-radius: 10px;
+    background: #fff;
+}
+.expenseChart{
+    font-style: italic;
+    font-size: 28px;
+    color:#fff;
+    margin-bottom: 10px;
+}
+@media (max-width:767px){
+    .expenseChart h2 {
+        text-align: center;
+    }
+}

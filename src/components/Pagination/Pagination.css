@@ -1,0 +1,41 @@
+.paginationWrapper{
+    display: flex;
+    gap:12px;
+    justify-content: center;
+}
+.paginationWrapper p{
+    background: #43967B;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    display: flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.6rem;
+}
+.paginationWrapper button{
+    background: #F1F1F1;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    display: flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 1.4rem;
+    border: 0;
+    cursor: pointer;
+}
+.paginationWrapper button[disabled]{
+    opacity: 0.5;
+}
+@media(max-width:767px){
+    .paginationWrapper p , .paginationWrapper button{
+        width: 42px;
+        height: 42px;
+        font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,31 @@
+.button{
+    cursor:pointer;
+    color:#000;
+    border-radius: 15px;
+    border:0;
+    font-size: 1rem;
+    font-weight: 700;
+    background: #E3E3E3;
+    padding:12px 30px;
+}
+.primary{
+    color: #FFFFFF;
+    background: #F4BB4A;
+}
+.secondary {
+    width: fit-content;
+    font-weight: 400;
+    color: #000;
+    background: #E3E3E3;
+}
+.shadow{
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+}
+.success{
+    color: #fff;
+    background: linear-gradient(90deg,#B5DC52,#89E148);
+}
+.failure{
+    color: #fff;
+    background: linear-gradient(90deg,#FF9595,#FF4747,#FF3838);
+}
