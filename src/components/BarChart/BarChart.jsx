@@ -10,7 +10,7 @@ import {
     Legend,
     ResponsiveContainer,
 } from "recharts";
-import styles from "./BarChart.css";
+import styles from "./BarChart.module.css";
  export default function BarChartComponent({data}) {
     return (
         <div className={styles.expenseChart}>
@@ -29,7 +29,7 @@ import styles from "./BarChart.css";
                             <Bar dataKey="value" fill="#8884d8" barSize={25} />
                         </BarChart>
                     </ResponsiveContainer>
-                ) :(
+                ) : (
                     <div style={{
                         alignItems:"center",
                         justifyContent:"center",

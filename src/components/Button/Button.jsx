@@ -1,4 +1,4 @@
-import styles from "./Button.css";
+import styles from "./Button.module.css";
 function Button({children,handleClick,style="primary",type="button",shadow="false"}) {
     return (
         <button

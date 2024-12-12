@@ -1,5 +1,5 @@
 import TransactionCard from "../TransactionCard/TransactionCard";
-import styles from "./TransactionList.css";
+import styles from "./TransactionList.module.css";
 import Modal from "../Modal/Modal";
 import Expense from "../Forms/Expense/Expense";
 import { useEffect,useState } from "react";

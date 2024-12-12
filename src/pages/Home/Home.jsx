@@ -1,6 +1,6 @@
 import { useEffect,useState } from "react";
 import Card from "../../components/Card/Card";
-import styles from "./Home.css";
+import styles from "./Home.module.css";
 import TransactionList from "../../components/TransactionList/TransactionList";
 import Expense from "../../components/Forms/Expense/Expense";
 import Modal from "../../components/Modal/Modal";

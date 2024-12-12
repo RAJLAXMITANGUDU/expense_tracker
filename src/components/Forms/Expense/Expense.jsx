@@ -1,4 +1,4 @@
-import styles from "./Expense.css";
+import styles from "./Expense.module.css";
 import Button from "../../Button/Button.jsx";
 import { useState } from "react";
 import {useSnackbar} from "notistack";

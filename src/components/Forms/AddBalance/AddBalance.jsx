@@ -1,4 +1,4 @@
-import styles from "./AddBalance.css";
+import styles from "./AddBalance.module.css";
 import Button from "../../Button/Button.jsx";
 import { useState } from "react";
 import {useSnackbar} from "notistack";

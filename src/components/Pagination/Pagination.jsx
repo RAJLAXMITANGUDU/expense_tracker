@@ -1,4 +1,4 @@
-import styles from "./Pagination.css";
+import styles from "./Pagination.module.css";
 import {IoIosArrowRoundBack,IoIosArrowRoundForward} from "react-icons/io";
 export default function Pagination({updatePage,currentPage,totalPages}){
     const handlePrev=()=>{

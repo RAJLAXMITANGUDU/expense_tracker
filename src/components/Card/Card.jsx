@@ -1,5 +1,5 @@
 import Button from "../Button/Button";
-import styles from "./Card.css";
+import styles from "./Card.module.css";
 export default function Card({title,money,buttonText,buttonType,handleClick,success=true}){
     return (
         <div className={styles.card}>
