@@ -7,7 +7,7 @@ import Pagination from "../Pagination/Pagination";
  export default function TransactionList({editTransactions,title,transactions,balance,setBalance}){
     const [editId,setEditId]=useState(0);
     const [isDisplayEditor,setIsDisplayEditor]=useState(false);
-    const [currentTransactions,setCurrentTransactions]=useState(1);
+    const [currentTransactions,setCurrentTransactions]=useState([]);
     const [currentPage,setCurrentPage]=useState(1);
     const [totalPages,setTotalPages]=useState(0);
     const maxRecords=3;

@@ -2,6 +2,8 @@
     min-height: 100vh;
     padding: 24px;
     background: var(--primary-bg-color);
+    display: flex;
+    flex-direction: column;
 }
 .container h1{
     color:#fff;
