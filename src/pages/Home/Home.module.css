@@ -10,13 +10,14 @@
     margin-bottom: 10px;
 }
 .transactionsWrapper{
-    grid-template-columns: 2fr,1fr;
-    display: grid;
-    gap:32px;
+    /* grid-template-columns: 2fr,1fr;  */
+    display: flex;
+    
+    
 }
 .cardsWrapper{
     display:grid;
-    grid-template-columns: repeat(3.1fr);
+    grid-template-columns: repeat(3,1fr);
     padding: 48px;
     gap:32px;
     border-radius: 10px;

@@ -16,9 +16,9 @@ import styles from "./BarChart.module.css";
         <div className={styles.expenseChart}>
             <h2>Top Expenses</h2>
             <div className={styles.barWrapper}>
-                {data.length ? (
-                    <ResponsiveContainer width="100%" height={200}>
-                        <BarChart data={data} layout="vertical">
+                {data?.length ? (
+                    <ResponsiveContainer className={styles.barContainer} width="100%" height={280}>
+                        <BarChart className={styles.barChart} data={data} width="100%" layout="vertical">
                             <XAxis type="number" axisLine={false} display="none" />
                             <YAxis 
                               type="category"

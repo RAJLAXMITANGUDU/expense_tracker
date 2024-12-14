@@ -9,6 +9,9 @@
     margin-bottom: 10px;
     color: #fff;
 }
+.transactionsWrapper{
+    width: 65%;
+}
 @media(max-width:767px){
     .transactionsWrapper h2{
         text-align: center;
