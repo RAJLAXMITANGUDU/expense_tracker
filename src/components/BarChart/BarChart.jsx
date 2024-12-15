@@ -18,12 +18,12 @@ import styles from "./BarChart.module.css";
             <div className={styles.barWrapper}>
                 {data?.length ? (
                     <ResponsiveContainer className={styles.barContainer} width="100%" height={280}>
-                        <BarChart className={styles.barChart} data={data} width="100%" layout="vertical">
+                        <BarChart className={styles.barChart} data={data} width="80%" layout="vertical">
                             <XAxis type="number" axisLine={false} display="none" />
                             <YAxis 
                               type="category"
                               dataKey="name"
-                              width={100}
+                              width={200}
                               axisLine={false}
                             />
                             <Bar dataKey="value" fill="#8884d8" barSize={25} />

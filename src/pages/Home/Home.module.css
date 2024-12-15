@@ -4,6 +4,7 @@
     background: var(--primary-bg-color);
     display: flex;
     flex-direction: column;
+    margin: 20px;
 }
 .container h1{
     color:#fff;
@@ -12,8 +13,9 @@
 .transactionsWrapper{
     /* grid-template-columns: 2fr,1fr;  */
     display: flex;
-    
-    
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
 }
 .cardsWrapper{
     display:grid;
@@ -33,10 +35,12 @@
     }
     .cardsWrapper{
         padding: 16px;
-        grid-template-columns: 1fr;
+         grid-template-columns: 1fr; 
         gap:24px;
+        flex-direction: column;
     }
     .transactionsWrapper{
-        grid-template-columns: 1fr;
+         grid-template-columns: 1fr; 
+        flex-direction: column;
     }
 }

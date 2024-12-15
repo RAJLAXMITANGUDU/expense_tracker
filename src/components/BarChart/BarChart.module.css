@@ -4,14 +4,12 @@
     background: #fff;
     width:100%;
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }.barContainer{
     display: flex;
     justify-content: center;
 }
-.barChart {
-    margin-left: 100px;
-}
+
 .expenseChart{
     font-style: italic;
     font-size: 28px;
