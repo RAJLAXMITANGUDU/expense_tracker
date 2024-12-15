@@ -1,10 +1,10 @@
 import Home from "./pages/Home/Home";
-import {snackbarProvider} from "notistack";
+import {SnackbarProvider} from "notistack";
 
 export default function App(){
   return (
-    <snackbarProvider>
+    <SnackbarProvider>
       <Home />
-    </snackbarProvider>
+    </SnackbarProvider>
   );
 }

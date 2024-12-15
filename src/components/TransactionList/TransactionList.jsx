@@ -35,7 +35,7 @@ import Pagination from "../Pagination/Pagination";
 
     return (
         <div className={styles.transactionsWrapper}>
-            {title && <h2>{title}</h2>}
+            {title && <h1>{title}</h1>}
             {transactions.length>0?(
                 <div className={styles.list}>
                     <div>
